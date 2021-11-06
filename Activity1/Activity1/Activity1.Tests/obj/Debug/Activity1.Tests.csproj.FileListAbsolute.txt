@@ -13,3 +13,4 @@ C:\Users\Liene\Desktop\.NET_practical_tasks\Activity1\Activity1\Activity1.Tests\
 C:\Users\Liene\Desktop\.NET_practical_tasks\Activity1\Activity1\Activity1.Tests\obj\Debug\Activity1.Tests.csproj.CoreCompileInputs.cache
 C:\Users\Liene\Desktop\.NET_practical_tasks\Activity1\Activity1\Activity1.Tests\obj\Debug\Activity1.Tests.dll
 C:\Users\Liene\Desktop\.NET_practical_tasks\Activity1\Activity1\Activity1.Tests\obj\Debug\Activity1.Tests.pdb
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity1\Activity1\Activity1.Tests\obj\Debug\Activity1.Tests.csproj.CopyComplete
