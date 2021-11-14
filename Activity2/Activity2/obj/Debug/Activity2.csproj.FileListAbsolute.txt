@@ -1,0 +1,6 @@
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity2\Activity2\bin\Debug\Activity2.dll
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity2\Activity2\bin\Debug\Activity2.pdb
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity2\Activity2\obj\Debug\Activity2.csproj.AssemblyReference.cache
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity2\Activity2\obj\Debug\Activity2.csproj.CoreCompileInputs.cache
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity2\Activity2\obj\Debug\Activity2.dll
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity2\Activity2\obj\Debug\Activity2.pdb

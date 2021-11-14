@@ -1,0 +1,6 @@
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity3\bin\Debug\Activity3.dll
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity3\bin\Debug\Activity3.pdb
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity3\obj\Debug\Activity3.csproj.AssemblyReference.cache
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity3\obj\Debug\Activity3.csproj.CoreCompileInputs.cache
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity3\obj\Debug\Activity3.dll
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity3\obj\Debug\Activity3.pdb

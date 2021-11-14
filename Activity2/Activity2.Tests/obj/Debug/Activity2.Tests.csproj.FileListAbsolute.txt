@@ -1,0 +1,17 @@
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity2\Activity2.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity2\Activity2.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity2\Activity2.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity2\Activity2.Tests\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity2\Activity2.Tests\bin\Debug\Activity2.Tests.dll
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity2\Activity2.Tests\bin\Debug\Activity2.Tests.pdb
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity2\Activity2.Tests\bin\Debug\Activity2.dll
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity2\Activity2.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity2\Activity2.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity2\Activity2.Tests\bin\Debug\Activity2.pdb
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity2\Activity2.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity2\Activity2.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity2\Activity2.Tests\obj\Debug\Activity2.Tests.csproj.AssemblyReference.cache
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity2\Activity2.Tests\obj\Debug\Activity2.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity2\Activity2.Tests\obj\Debug\Activity2.Tests.csproj.CopyComplete
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity2\Activity2.Tests\obj\Debug\Activity2.Tests.dll
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity2\Activity2.Tests\obj\Debug\Activity2.Tests.pdb
