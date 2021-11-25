@@ -1,0 +1,9 @@
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity4\ArrayStore\bin\Debug\ArrayStore.dll
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity4\ArrayStore\bin\Debug\ArrayStore.pdb
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity4\ArrayStore\bin\Debug\Activity4.dll
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity4\ArrayStore\bin\Debug\Activity4.pdb
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity4\ArrayStore\obj\Debug\ArrayStore.csproj.AssemblyReference.cache
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity4\ArrayStore\obj\Debug\ArrayStore.csproj.CoreCompileInputs.cache
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity4\ArrayStore\obj\Debug\ArrayStore.csproj.CopyComplete
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity4\ArrayStore\obj\Debug\ArrayStore.dll
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity4\ArrayStore\obj\Debug\ArrayStore.pdb
