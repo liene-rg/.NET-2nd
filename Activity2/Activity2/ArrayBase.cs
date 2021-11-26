@@ -41,13 +41,11 @@ namespace CSharp.Activity.Datastore
             // then use DEFAULT_SIZE instead.
 
             //start solution
-
-            this.storeArray = new T[arraySize];
-
-            if (arraySize < 0) 
-            {
-               storeArray = new T[DEFAULT_SIZE];
-            }
+            if (arraySize < 0)
+                this.storeArray = new T[DEFAULT_SIZE];
+            else
+                this.storeArray = new T[arraySize];
+            
         }
         
 
@@ -162,6 +160,8 @@ namespace CSharp.Activity.Datastore
 
             return NOT_IN_STRUCTURE;
 
+            
+
 
             //foreach (var item in storeArray)
             //{
@@ -172,8 +172,8 @@ namespace CSharp.Activity.Datastore
 
             //}
 
-            
-            
+
+
         }
 
 
@@ -188,8 +188,8 @@ namespace CSharp.Activity.Datastore
             //Add item to the array if array is not full and return new item index, otherwise return NOT_IN_STRUCTURE.
 
             //start solution
-            if (IsFull())
-                throw new IndexOutOfRangeException();
+            //if (IsFull())
+            //    throw new IndexOutOfRangeException();
 
             if (currentCount >= Capacity)
                 return NOT_IN_STRUCTURE;
@@ -204,7 +204,7 @@ namespace CSharp.Activity.Datastore
                 //return this.Count;
 
                 storeArray[currentCount++] = obj;
-                return this.Count;
+                return Count;
             }
             
 
@@ -228,21 +228,22 @@ namespace CSharp.Activity.Datastore
 
             //start solution
 
-            if (IsEmpty())
+            if (this.IsEmpty())
             {
                 throw new InvalidOperationException("Impossible to remove.");
             }
             if(index < 0 || index > Capacity)
             {
-                throw new ArgumentOutOfRangeException("index");
+                throw new InvalidOperationException("index");
             }
             
 
             else
-                storeArray[index] = storeArray[index++];
+                for (int i = 0; i < storeArray.Length - 1; i++) // shifting elements
+                    storeArray[i] = storeArray[i + 1];
 
-            
-            
+
+
         }
 
             

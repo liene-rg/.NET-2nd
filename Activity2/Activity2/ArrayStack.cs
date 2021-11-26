@@ -50,18 +50,18 @@ namespace CSharp.Activity.Datastore
             // In .NET Core use: !typeof(T).GetTypeInfo().IsValueType && arg == null (also requires adding 'using System.Reflection;')
             //if (!typeof(T).IsValueType && arg == null)
             //    throw new ArgumentNullException("arg", "Input value cannot be null");
-           
-            if (!typeof(T).GetTypeInfo().IsValueType && arg == null)
-            throw new ArgumentNullException("arg", "Input value cannot be null");
+
+            if (!typeof(T).IsValueType && arg == null)
+                throw new ArgumentNullException("arg", "Input value cannot be null");
             //start solution
 
             if (Count == Capacity)
-                throw new IndexOutOfRangeException();
+                throw new InvalidOperationException("The stack is full");
            
             else 
             
-            this[Count] = arg;
-            Count++;
+            this[Count++] = arg;
+            
         }
 
 
@@ -81,9 +81,12 @@ namespace CSharp.Activity.Datastore
             //start solution
              if (Count == 0) 
 
-                throw new InvalidOperationException();         
+                throw new InvalidOperationException("The stack is empty");    
+             
+             Count--;
+            return this[Count];
                        
-            return this[Count--];
+            //return this[Count--]; 
         }
 
             
@@ -110,7 +113,7 @@ namespace CSharp.Activity.Datastore
             }
 
             
-            return this[Count--];
+            return this[Count -1];
 
 
         }

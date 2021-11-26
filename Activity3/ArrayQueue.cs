@@ -11,7 +11,7 @@ namespace CSharp.Activity.Datastore
 
         // The indices of the first and last objects in the queue:
         private int first;
-        private int last;
+        private int last = -1;
 
 
         // HINT: In addition to the above variables,
@@ -58,38 +58,18 @@ namespace CSharp.Activity.Datastore
 
             //start solution
 
-            if(next.Equals(null))
-            {
+            if (next == null)
                 throw new ArgumentNullException(nameof(next));
-            }
 
-            if (Contains(next))
-            {
-                throw new InvalidOperationException();  
-            }
 
-            if (IsFull())
-            {
-                throw new IndexOutOfRangeException();
-            }
-            else if (first == -1 && last == -1)
-            {
-                first++;
-                last++;
-            }
+            if (this.Contains(next) || this.IsFull())
+                return false;
 
-            else if (last == Capacity - 1)
-            {
-                last = 0;
-            }
-            else last++;
-
-            this[this.last] = next;
+            this[++this.last] = next;
             Count++;
-          
-
             return true;
-                // in the final solution this statement should be deleted or modified
+
+            // in the final solution this statement should be deleted or modified
         }
 
 
@@ -104,32 +84,20 @@ namespace CSharp.Activity.Datastore
             //then throw InvalidOperationException() exception.
 
             //start solution
+            if (this.IsEmpty())
+                throw new InvalidOperationException();
 
-            if (IsEmpty())
-            {
-                throw new Exception("Queue is empty");
-            }
+            var res = this[0];
 
-            this[this.first] = this[first];
+            for (int i = 0; i < this.Capacity - 1; i++)
+                this[i] = this[i + 1];
+            this.last--;
+            this.Count--;
+            return res;
 
-            if (first == last)
-            {
-                first = -1;
-                last = -1;
-            }
 
-            else if (first == Capacity - 1)
-            {
-                first = 0;
-            }
-            else
-            { 
-                first++;
-            }
-            Count--;
-            return this[first];
-          
-           
+
+
             //return default(T); // in the final solution this statement should be deleted or modified
         }
 
@@ -163,17 +131,19 @@ namespace CSharp.Activity.Datastore
 
             //start solution
 
-            for (int i = 0; i < this.Count; i++)
-            {
-                if (this[i].Equals(arg))
-                    return i;
-
-            }
-
-            if(arg == null)
+            if (arg == null)
             {
                 throw new ArgumentNullException();
             }
+
+            for (int i = this.first; i < this.last + 1; i++)
+            {
+                if (this[i] != null && this[i].Equals(arg))
+                    return i - this.first;
+
+            }
+
+            
 
             return NOT_IN_STRUCTURE;
         }
@@ -192,7 +162,7 @@ namespace CSharp.Activity.Datastore
             //The start of the queue is index 0
            
             //start solution
-            return this[index-1];
+            return this[index];
 
             //return default(T); // in the final solution this statement should be deleted or modified
         }
