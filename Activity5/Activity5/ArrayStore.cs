@@ -1,11 +1,11 @@
-﻿using CSharp.Activity.CardGame;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CSharp.Activity.Datastore;
 
-namespace CSharp.Activity.Datastore
+namespace CSharp.Activity.CardGame
 {
     public class ArrayStore<T> : AbstractArrayStore<T>
     {
@@ -15,19 +15,19 @@ namespace CSharp.Activity.Datastore
 
         public ArrayStore(int arraySize) : base(arraySize)
         {
-           
+
 
         }
 
-        public int Length { get; internal set; }
+        public int Length { get { return this.Capacity; } }
 
         public override int Add(T argToAdd)
 
         {
-            
+
 
             if (Count >= Capacity)
-            
+
                 return NOT_IN_STRUCTURE;
 
 
@@ -62,11 +62,11 @@ namespace CSharp.Activity.Datastore
             for (int i = this.Count; i > indexToInsert; i--)
             {
                 this[i] = this[i - 1];
-                 this[indexToInsert] = argToInsert;
-             
+                this[indexToInsert] = argToInsert;
+
             }
-               return this.Count++;
-           
+            return this.Count++;
+
 
         }
 
@@ -91,7 +91,7 @@ namespace CSharp.Activity.Datastore
                         this.RemoveAt(i);
 
                 }
-            
+
 
             //for (int i = 0; i < this.Count - 1; i++)
             //    this[i] = this[i + 1]; // shift
@@ -116,8 +116,11 @@ namespace CSharp.Activity.Datastore
             }
 
             else
+            {
                 for (int i = 0; i < this.Count - 1; i++)
                     this[i] = this[i + 1]; //shift
+                this.Count--;
+            }
 
 
 
@@ -125,6 +128,6 @@ namespace CSharp.Activity.Datastore
 
         }
 
-        
+
     }
 }

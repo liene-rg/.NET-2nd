@@ -9,9 +9,9 @@ namespace CSharp.Activity.Datastore
    {
       //This is a constant that represents the code value returned when an object cannot be found in the array
       public const int NOT_IN_STRUCTURE = -1;
-      
-      //This is a constant that represents the default size of the array
-      public const int DEFAULT_SIZE = 5;
+
+        //This is a constant that represents the default size of the array
+        public const int DEFAULT_SIZE = 10;
 
       //This is the actual structure that the class uses to store objects
       private T[] storeArray;
@@ -27,14 +27,25 @@ namespace CSharp.Activity.Datastore
       /// </summary>
       public int Count { get; protected set; }
 
-      #region Abstract Methods - To be implemented in derived class
-      
-      /// <summary>
-      /// Adds an object to the the data structure.
-      /// </summary>
-      /// <param name="argToAdd">The object to be added.</param>
-      /// <returns>Returns NOT_IN_STRUCTURE if array is full, or added element index if addition succeeded.</returns>
-      public abstract int Add(T argToAdd);
+        public void increaseArraySize()
+        {
+            T[] increasArr = new T[this.Capacity + DEFAULT_SIZE];
+            for (int i = 0; i < increasArr.Length; i++)
+            {
+                increasArr[i] = storeArray[i];
+            }
+
+            this.storeArray = increasArr;
+        }
+
+        #region Abstract Methods - To be implemented in derived class
+
+        /// <summary>
+        /// Adds an object to the the data structure.
+        /// </summary>
+        /// <param name="argToAdd">The object to be added.</param>
+        /// <returns>Returns NOT_IN_STRUCTURE if array is full, or added element index if addition succeeded.</returns>
+        public abstract int Add(T argToAdd);
 
       /// <summary>
       /// Removes an object from the specified location in the data structure.

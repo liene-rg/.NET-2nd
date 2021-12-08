@@ -1,0 +1,12 @@
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity7\Activity7\bin\Debug\net5.0\Activity7.deps.json
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity7\Activity7\bin\Debug\net5.0\Activity7.dll
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity7\Activity7\bin\Debug\net5.0\ref\Activity7.dll
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity7\Activity7\bin\Debug\net5.0\Activity7.pdb
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity7\Activity7\obj\Debug\net5.0\Activity7.csproj.AssemblyReference.cache
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity7\Activity7\obj\Debug\net5.0\Activity7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity7\Activity7\obj\Debug\net5.0\Activity7.AssemblyInfoInputs.cache
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity7\Activity7\obj\Debug\net5.0\Activity7.AssemblyInfo.cs
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity7\Activity7\obj\Debug\net5.0\Activity7.csproj.CoreCompileInputs.cache
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity7\Activity7\obj\Debug\net5.0\Activity7.dll
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity7\Activity7\obj\Debug\net5.0\ref\Activity7.dll
+C:\Users\Liene\Desktop\.NET_practical_tasks\Activity7\Activity7\obj\Debug\net5.0\Activity7.pdb
