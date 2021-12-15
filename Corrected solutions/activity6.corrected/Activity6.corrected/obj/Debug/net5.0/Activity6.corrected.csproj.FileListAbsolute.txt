@@ -1,0 +1,12 @@
+C:\Users\Liene\Desktop\.NET_practical_tasks\Corrected solutions\activity6.corrected\Activity6.corrected\bin\Debug\net5.0\Activity6.corrected.deps.json
+C:\Users\Liene\Desktop\.NET_practical_tasks\Corrected solutions\activity6.corrected\Activity6.corrected\bin\Debug\net5.0\Activity6.corrected.dll
+C:\Users\Liene\Desktop\.NET_practical_tasks\Corrected solutions\activity6.corrected\Activity6.corrected\bin\Debug\net5.0\ref\Activity6.corrected.dll
+C:\Users\Liene\Desktop\.NET_practical_tasks\Corrected solutions\activity6.corrected\Activity6.corrected\bin\Debug\net5.0\Activity6.corrected.pdb
+C:\Users\Liene\Desktop\.NET_practical_tasks\Corrected solutions\activity6.corrected\Activity6.corrected\obj\Debug\net5.0\Activity6.corrected.csproj.AssemblyReference.cache
+C:\Users\Liene\Desktop\.NET_practical_tasks\Corrected solutions\activity6.corrected\Activity6.corrected\obj\Debug\net5.0\Activity6.corrected.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Liene\Desktop\.NET_practical_tasks\Corrected solutions\activity6.corrected\Activity6.corrected\obj\Debug\net5.0\Activity6.corrected.AssemblyInfoInputs.cache
+C:\Users\Liene\Desktop\.NET_practical_tasks\Corrected solutions\activity6.corrected\Activity6.corrected\obj\Debug\net5.0\Activity6.corrected.AssemblyInfo.cs
+C:\Users\Liene\Desktop\.NET_practical_tasks\Corrected solutions\activity6.corrected\Activity6.corrected\obj\Debug\net5.0\Activity6.corrected.csproj.CoreCompileInputs.cache
+C:\Users\Liene\Desktop\.NET_practical_tasks\Corrected solutions\activity6.corrected\Activity6.corrected\obj\Debug\net5.0\Activity6.corrected.dll
+C:\Users\Liene\Desktop\.NET_practical_tasks\Corrected solutions\activity6.corrected\Activity6.corrected\obj\Debug\net5.0\ref\Activity6.corrected.dll
+C:\Users\Liene\Desktop\.NET_practical_tasks\Corrected solutions\activity6.corrected\Activity6.corrected\obj\Debug\net5.0\Activity6.corrected.pdb

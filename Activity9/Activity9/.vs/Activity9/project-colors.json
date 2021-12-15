@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e77bb614-ea15-4b5f-912d-1fc344c0bf57": {
+      "ProjectGuid": "e77bb614-ea15-4b5f-912d-1fc344c0bf57",
+      "DisplayName": "Activity9",
+      "ColorIndex": 0
+    },
+    "13f919e3-7144-46a7-b70f-b2b34c28c75d": {
+      "ProjectGuid": "13f919e3-7144-46a7-b70f-b2b34c28c75d",
+      "DisplayName": "LoanProcessing",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

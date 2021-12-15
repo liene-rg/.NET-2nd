@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "OkrCqZ6iyvs8QIubSZ0U3g7reL/UARpRWmJZfbBjbAcbMaK1G5Xj6oYPALs1lfSsgMHiB2cDcBuy6SvTno5XpA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Liene\\Desktop\\.NET_practical_tasks\\Database\\DataBase\\DataBase.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Liene\\.nuget\\packages\\mysqlconnector\\2.1.0\\mysqlconnector.2.1.0.nupkg.sha512",
+    "C:\\Users\\Liene\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

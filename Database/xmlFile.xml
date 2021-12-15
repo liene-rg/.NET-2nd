@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<OperatingSystems>
+  <OS ID="1">
+    <Name>MacOS</Name>
+    <Developer>Apple</Developer>
+    <OSFamily>Macintosh</OSFamily>
+    <LatestVersion>10.15.7</LatestVersion>
+    <Delete>X</Delete>
+  </OS>
+  <OS ID="2">
+    <Name>Windows 10</Name>
+    <Developer>Microsoft</Developer>
+    <OSFamily>Windows</OSFamily>
+    <LatestVersion>10.0.19041.572</LatestVersion>
+    <Delete></Delete>
+  </OS>
+</OperatingSystems>

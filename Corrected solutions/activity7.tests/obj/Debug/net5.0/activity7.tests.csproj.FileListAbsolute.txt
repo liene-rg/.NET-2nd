@@ -1,0 +1,6 @@
+C:\Users\Liene\Desktop\.NET_practical_tasks\Corrected solutions\activity7.tests\bin\Debug\net5.0\CoverletSourceRootsMapping
+C:\Users\Liene\Desktop\.NET_practical_tasks\Corrected solutions\activity7.tests\obj\Debug\net5.0\activity7.tests.csproj.AssemblyReference.cache
+C:\Users\Liene\Desktop\.NET_practical_tasks\Corrected solutions\activity7.tests\obj\Debug\net5.0\activity7.tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Liene\Desktop\.NET_practical_tasks\Corrected solutions\activity7.tests\obj\Debug\net5.0\activity7.tests.AssemblyInfoInputs.cache
+C:\Users\Liene\Desktop\.NET_practical_tasks\Corrected solutions\activity7.tests\obj\Debug\net5.0\activity7.tests.AssemblyInfo.cs
+C:\Users\Liene\Desktop\.NET_practical_tasks\Corrected solutions\activity7.tests\obj\Debug\net5.0\activity7.tests.csproj.CoreCompileInputs.cache

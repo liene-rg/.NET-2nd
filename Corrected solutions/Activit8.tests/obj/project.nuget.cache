@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4QvdZ4qcKtskT6aGk/6azxIGIfcVG/0LPcmTwTuN4l1OAMhSgRBy3OQC4owXd1QPB+M/PGkJ4lODgaJnuUVI4w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Liene\\Desktop\\.NET_practical_tasks\\Corrected solutions\\Activit8.tests\\Activit8.tests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Liene\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c038fd60-b8da-4966-8203-041b6a528c04": {
+      "ProjectGuid": "c038fd60-b8da-4966-8203-041b6a528c04",
+      "DisplayName": "activity8.corrected",
+      "ColorIndex": 0
+    },
+    "55dc8501-1949-461e-af5b-25a593ceccfa": {
+      "ProjectGuid": "55dc8501-1949-461e-af5b-25a593ceccfa",
+      "DisplayName": "Activit8.tests",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
