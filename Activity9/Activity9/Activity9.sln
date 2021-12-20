@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Activity9", "Activity9.csproj", "{E77BB614-EA15-4B5F-912D-1FC344C0BF57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Activity9", "Activity9.csproj", "{E77BB614-EA15-4B5F-912D-1FC344C0BF57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanProcessing", "..\LoanProcessing\LoanProcessing.csproj", "{13F919E3-7144-46A7-B70F-B2B34C28C75D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoanProcessing", "..\LoanProcessing\LoanProcessing.csproj", "{13F919E3-7144-46A7-B70F-B2B34C28C75D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainEvents", "..\TrainEvents\TrainEvents.csproj", "{8779C9E5-EAD2-42A0-8E89-FCE8D1FC2BCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{13F919E3-7144-46A7-B70F-B2B34C28C75D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13F919E3-7144-46A7-B70F-B2B34C28C75D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13F919E3-7144-46A7-B70F-B2B34C28C75D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8779C9E5-EAD2-42A0-8E89-FCE8D1FC2BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8779C9E5-EAD2-42A0-8E89-FCE8D1FC2BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8779C9E5-EAD2-42A0-8E89-FCE8D1FC2BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8779C9E5-EAD2-42A0-8E89-FCE8D1FC2BCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

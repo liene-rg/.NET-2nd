@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "M+f2Ax/UeNS+Rls7e1Iugb/S6mDu3OkU2TnSboUhiFAoh1ECTJpc3+2Wr51MOPdEpBmk9xsRkxiSRswZEp+DpA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Liene\\Desktop\\.NET_practical_tasks\\Activity9\\TrainEvents\\TrainEvents.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Liene\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

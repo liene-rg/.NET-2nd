@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8a6mWwJ6OJ442pKnw7+Yxs1m2PQ7V80HZSbXeBTXzAcZOdttpEdjqK7Q8fBuGNCY+tckip/LBUh7O4upP6LMHg==",
+  "dgSpecHash": "88VtRwNXsFe5IFL2+3Vai6mq+OlJZ2zySCw5xUuDxwgG/vCjpnBPpNGtGajwwi8iiy6jJ5kdnpEOdBYv3pVsCg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Liene\\Desktop\\.NET_practical_tasks\\Activity9\\LoanProcessing\\LoanProcessing.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Liene\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+    "C:\\Users\\Liene\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
   ],
   "logs": []
 }
